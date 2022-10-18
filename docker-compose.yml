@@ -1,0 +1,7 @@
+services:
+  webapp:
+    image: dockervue
+    ports:
+      - "8000:8000"
+    volumes:
+      - "/data"
